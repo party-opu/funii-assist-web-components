@@ -1,6 +1,5 @@
-import React from 'react';
-import { ComponentProps } from '../props';
-declare const Frame: React.FC<ComponentProps>;
-export declare const FrameItemWrapper: import("styled-components").StyledComponent<"div", any, {}, never>;
+import { AppV1_Frame } from '@party-opu/funii-assist-types';
+import { FrameProps } from '../props';
+declare const Frame: ({ node, children }: FrameProps<AppV1_Frame>) => JSX.Element | null;
 export default Frame;
 //# sourceMappingURL=index.d.ts.map
